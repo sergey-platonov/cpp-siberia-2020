@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=1366, initial-scale=1, maximum-scale=1">
+    <title>C++ Siberia 2019: 15-16 февраля, Новосибирск</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.min.css">
+</head>
+<body>
+  <div class="header-wrap">
+    <div class="container">
+      <header>
+        <div class="header__inner">
+          <div class="header__logo ">
+              <a href="../index.html"><img src="../img/logo.png" alt="logo"></a>
+            </div>
+    
+            <ul class="header__menu">
+              <li><a href="../index.html#about">О конференции</a></li>
+              <li><a href="../index.html#reports">Доклады</a></li>
+              <li><a href="../index.html#program">Программа</a></li>
+              <li><a href="../index.html#tickets">Билеты</a></li>
+              <li><a href="../index.html#sponsors">Спонсоры</a></li>
+              <li><a href="../index.html#contacts">Контакты</a></li>
+            </ul>
+      
+          <div class="header__contacts">
+            <a href="tel:+79052927713 " class="header__contacts-tel">+7 (905) 292-77-13</a>
+            <a href="mailto:conf@cpp-russia.ru" class="header__contacts-email">conf@cpp-russia.ru</a>
+          </div>
+        </div>
+      </header>
+      <section class="promo">
+          <div class="promo__inner">
+              <h1>Конференция <br> C++ SIBERIA 2019 <br><span>15/02-16/02 Новосибирск</span></h1>
+              <div class="promo__details-wrap">
+              </div>
+            </div>
+      </section>
+    </div>
+  </div>
+
+  <section class="program" id="program">
+    
+    <div class="container">
+      <h2>Антон Полухин</h2>
+      <h3>Шустрый и современный C++</h3>
+      <div class="program__wrap">
+        <div class="program__table">
+                <img src="../img/speakers/anton_polukhin.jpg">
+        </div>
+      
+        <div class="program__table">
+
+Полухин Антон
+
+Представитель РГ 21 C++ на международных заседаниях комитета по стандартизации C++. Автор нескольких принятых предложений к стандарту языка C++.
+
+Aвтор Boost библиотек TypeIndex, DLL, Stacktrace и активный maintainer Any, Conversion, LexicalCast, Variant.
+
+Автор книги "Boost C++ Application Development Cookbook".
+
+Изобретатель новой метапрограммной техники для рефлексии в C++14.
+
+Старший разработчик сервиса Яндекс.Видео.
+<hr>
+В любой большой кодовой базе можно встретить куски абсолютно непонятного кода. Как правило такой код пишется чтобы немного выиграть в производительности приложения... и как правило такой код не нужен в принципе, так как оптимизирует не то что нужно, не в том месте где это нужно и не так как надо.
+
+Мы начнём с небольшого примера, на котором встретим все частые ошибки преждевременной оптимизации. После чего мы начнём с основ и рассмотрим
+
+    <ul>
+      <li>Алгоритмы стандартной библиотеки и их сложности</li>
+      <li>Контейнеры стандартной (и не только) библиотеки, с их особенностями</li>
+      <li>Move семантику и её неожиданное поведение</li>
+      <li>Многопоточность</li>
+    </ul>
+
+Так как курс практический, то все темы мы будем исследовать экспериментально, используя С++ библиотеку для бенчмарков google benchmark. Большая часть задач выглядит как "Вот пример кода на 10-20 строк, давайте его ускорим используя только что изученный материал. А теперь давайте сделаем Х и попробуем объяснить результат". В процессе исследований мы натолкнёмся на особенности аллокаторов, оптимизаторов и имплементаций контейнеров; посмотрим на ассемблерный код; научимся правильно и понятно писать быстрые однопоточные и многопоточные приложения.
+
+Для курса понадобится всего лишь базовые знания C++ и компилятор с поддержкой C++11 (как минимум или Visual Studio 2013, или Clang-3.3, или GCC-4.8).
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sponsors" id="sponsors">
+    <div class="container">
+      <h2>Спонсоры</h2>
+      <div class="sponsors__inner">
+          <!-- <div class="sponsors__wrap"><img src="img/sponsors/artec.png" alt=""></div> -->
+          <!-- <div class="sponsors__wrap"><img src="img/sponsors/yandex.png" alt=""></div> -->
+          <!-- <div class="sponsors__wrap"><img src="img/sponsors/kasper.png" alt=""></div> -->
+          <div class="sponsors__wrap"><img src="../img/sponsors/c+.png" alt=""></div>
+          <!-- <div class="sponsors__wrap"><img src="img/sponsors/luxoft.png" alt=""></div> -->
+          <!-- <div class="sponsors__wrap"><img src="img/sponsors/jet-brains.png" alt=""></div> -->
+      </div>
+    </div>
+  </section>
+  <section class="contacts" id="contacts">
+    <div class="container">
+      <div class="contacts__inner">
+        <div class="contacts__col-1">
+          <h2>Контакты</h2>
+          <div class="contacts__box">
+            <span>Адрес проведения:</span>
+            <p>Новосибирск, Станционная, 104, Экспоцентр.</p>
+          </div>
+          <div class="contacts__box">
+            <span>Предложения докладов:</span>
+            <p>talks@cpp-russia.ru</p>
+          </div>
+          <div class="contacts__box">
+            <span>Партнерство:</span>
+            <p>conf@cpp-russia.ru</p>
+          </div>
+          <div class="contacts__box">
+            <span>Студенческая программа:</span>
+            <p>students@cpp-russia.ru</p>
+          </div>
+        </div>
+        <div class="contacts__col-2">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2288.566795340843!2d82.74541731590136!3d54.998228980358235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42dfe19a3ab25553%3A0x498743524074a343!2z0J3QvtCy0L7RgdC40LHQuNGA0YHQuiDQrdC60YHQv9C-0YbQtdC90YLRgA!5e0!3m2!1sru!2sru!4v1544974350412" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p>С++ Siberia 2019 </p>
+    </div>
+  </footer>
+
+</body>
+</html>
